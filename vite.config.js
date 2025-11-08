@@ -1,8 +1,11 @@
+
+// https://vite.dev/config/
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
+// Replace 'summitwebsite' with your actual repository name if different
 export default defineConfig({
+  base: '/Summit-Trail-/',
   plugins: [
     react({
       babel: {

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import "./Style.css";
+import "../../Style/Component/Splashscreen.css";
 
 export default function SplashScreen({ onFinish, hidden }) {
   const [fade, setFade] = useState(false);

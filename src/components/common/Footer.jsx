@@ -1,5 +1,6 @@
 import { useState } from "react";
-import "./style.css";
+import "../../Style/Component/footer.css";
+
 import {
   FaFacebookF,
   FaInstagram,

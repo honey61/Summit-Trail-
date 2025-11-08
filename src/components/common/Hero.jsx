@@ -1,17 +1,11 @@
 
 
-import "./style.css";
-import videoFile from "./video.mp4";
-import image1 from "./image1.jpg";
-import image2 from "./image2.jpg";
-import image3 from "./image3.jpg";
-import rock from "./rock.jpg";
-import valley from "./valley.jpg";
-import paragliding from "./paragliding.jpg";
-import SectionCard from "./SectionCard";
-import Populartrek from "./Populartrek";
-import mountain from "./mountain.jpg";
-
+import "../../Style/Component/hero.css";
+import videoFile from "./Images/video.mp4";
+import AboutSection from "../sections/AboutSection.jsx";
+import mountain from "./Images/mountain.jpg";
+import PopulartrekSection from "../sections/PopulartrekSection.jsx";
+import valley from "./Images/footer.jpg";
 export default function Hero() {
   return (
     <div>
@@ -40,11 +34,11 @@ export default function Hero() {
 
       {/* DYNAMIC SECTIONS */}
   
-        <SectionCard
+        <AboutSection
           image={mountain}
           title="Abount Us"
         />
-        <Populartrek 
+        <PopulartrekSection
   image={valley}
   title="Popular Treks" 
 />
